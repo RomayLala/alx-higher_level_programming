@@ -7,3 +7,4 @@ This script prints 3 times a string stored in the variable str, followed by its 
 This script prints Welcome to Holberton School!
 This script completes a source code.
 This script completes a source code.
+This script completes prints “The Zen of Python”, by TimPeters, followed by a new line.
