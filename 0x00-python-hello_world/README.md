@@ -1,1 +1,1 @@
-This script runs the Python script specified by the environment variable $PYFILE. 
+This script runs a Python Code saved in the environment variable $PYCODE.
