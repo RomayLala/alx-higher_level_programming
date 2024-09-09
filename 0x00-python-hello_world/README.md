@@ -8,3 +8,4 @@ This script prints Welcome to Holberton School!
 This script completes a source code.
 This script completes a source code.
 This script completes prints “The Zen of Python”, by TimPeters, followed by a new line.
+This script detects cycles in a singly linked list. The `check_cycle` function utilizes Floyd’s Cycle-Finding Algorithm to determine if a list contains a cycle.
