@@ -7,3 +7,4 @@ This code prints numbers from 0 to 99.
 This code prints all possible different combinations of two digits.
 This code checks for lowercase character.
 This code prints a string in uppercase followed by a new line.
+This code prints the last digit of a number.
