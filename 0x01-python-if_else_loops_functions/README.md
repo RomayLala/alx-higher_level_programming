@@ -5,3 +5,4 @@ This code prints the ASCII alphabet, in lowercase, not followed by a new line.
 This code prints all numbers from 0 to 98 in decimal and in hexadecimal.
 This code prints numbers from 0 to 99.
 This code prints all possible different combinations of two digits.
+This code checks for lowercase character.
