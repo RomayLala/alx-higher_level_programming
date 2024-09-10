@@ -2,3 +2,4 @@ This code will assign a random number to the variable number, then determine if 
 This code will assign a random number to the variable number, then  print the last digit of the number stored in the variable number.
 This code prints the ASCII alphabet, in lowercase, not followed by a new line.
 This code prints the ASCII alphabet, in lowercase, not followed by a new line.
+This code prints all numbers from 0 to 98 in decimal and in hexadecimal.
