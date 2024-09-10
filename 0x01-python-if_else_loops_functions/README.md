@@ -11,3 +11,4 @@ This code prints the last digit of a number.
 This code adds two integers and returns the result.
 This code  computes a to the power of b and return the value.
 This code  prints the numbers from 1 to 100 separated by a space.
+This code  inserts a number into a sorted singly linked list.
