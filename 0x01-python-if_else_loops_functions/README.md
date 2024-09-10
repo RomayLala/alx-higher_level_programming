@@ -9,3 +9,4 @@ This code checks for lowercase character.
 This code prints a string in uppercase followed by a new line.
 This code prints the last digit of a number.
 This code adds two integers and returns the result.
+This code  computes a to the power of b and return the value.
