@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+# A function that prints numbers from 1 to 100
+# Replaces multiples of 3 with "Fizz", multiples of 5 with "Buzz"
+# and multiples of both with "FizzBuzz"
 
 def fizzbuzz():
     for i in range(1, 101):
@@ -10,4 +13,3 @@ def fizzbuzz():
             print("Buzz", end=" ")
         else:
             print(i, end=" ")
-    print()  # To ensure the output ends with a newline
