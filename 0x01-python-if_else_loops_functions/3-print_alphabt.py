@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-# Script to print the ASCII alphabet in lowercase except 'q' and 'e', without a new line.
+# This script prints the ASCII alphabet in lowercase except 'q' and 'e'
 
-for letter in range(97, 123):  # ASCII values for 'a' to 'z'
-    if letter != 113 and letter != 101:  # ASCII for 'q' is 113, 'e' is 101
-        print("{:c}".format(letter), end="")
+print("".join(["{:c}".format(i) for i in range(97, 123) if i != 101 and i != 113]), end="")
