@@ -5,3 +5,4 @@ This function prints all integers of a list, in reverse order.
 This function replaces an element in a list at a specific position without modifying the original list (like in C).
 This function removes all characters c and C from a string.
 This function prints a matrix of integers.
+This function adds 2 tuples.
