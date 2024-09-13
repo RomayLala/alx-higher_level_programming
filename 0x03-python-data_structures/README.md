@@ -7,3 +7,4 @@ This function removes all characters c and C from a string.
 This function prints a matrix of integers.
 This function adds 2 tuples.
 This function returns a tuple with the length of a string and its first character.
+This function  finds the biggest integer of a list.
