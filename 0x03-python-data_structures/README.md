@@ -1,1 +1,2 @@
 This function  prints all integers of a list.
+This function retrieves an element from a list like in C.
