@@ -10,3 +10,4 @@ This function returns a tuple with the length of a string and its first characte
 This function  finds the biggest integer of a list.
 This function finds all multiples of 2 in a list.
 This function deletes the item at a specific position in a list.
+This function completes source code in order to switch value of a and b.
