@@ -5,3 +5,4 @@ This function  returns a set of common elements in two sets.
 This function returns a set of all elements present in only one set.
 This function returns the number of keys in a dictionary.
 This function prints a dictionary by ordered keys.
+This function replaces or adds key/value in a dictionary.
