@@ -8,3 +8,4 @@ This function prints a dictionary by ordered keys.
 This function replaces or adds key/value in a dictionary.
 This function deletes a key in a dictionary.
 This function returns a new dictionary with all values multiplied by 2.
+This function returns a key with the biggest integer value.
