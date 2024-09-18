@@ -9,3 +9,4 @@ This function replaces or adds key/value in a dictionary.
 This function deletes a key in a dictionary.
 This function returns a new dictionary with all values multiplied by 2.
 This function returns a key with the biggest integer value.
+This function  returns a list with all values multiplied by a number without using any loops.
