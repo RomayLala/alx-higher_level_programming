@@ -16,4 +16,9 @@ This is a class Square that defines a square by: (based on 4-square.py)
 -Instantiation with optional size: def __init__(self, size=0):
 -Public instance method: def area(self): that returns the current square area
 -Public instance method: def my_print(self): that prints in stdout the square with the character #.
-This is  
+This is  a class Square that defines a square by: (based on 5-square.py)
+-Private instance attribute: size
+-Private instance attribute: position
+-Instantiation with optional size and optional position: def __init__(self, size=0, position=(0, 0))
+-Public instance method: def area(self): that returns the current square area
+-Public instance method: def my_print(self): that prints in stdout the square with the character #.
