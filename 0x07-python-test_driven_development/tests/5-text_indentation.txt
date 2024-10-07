@@ -1,0 +1,33 @@
+>>> text_indentation("Hello. How are you?")
+Hello.
+
+How are you?
+
+>>> text_indentation("No punctuation")
+No punctuation
+
+>>> text_indentation("Question? Yes.")
+Question?
+
+Yes.
+
+>>> text_indentation("Colon: here it is.")
+Colon:
+
+here it is.
+
+>>> text_indentation("Spaces before.   After?")
+Spaces before.
+
+After?
+
+>>> text_indentation("")
+>>> text_indentation(None)
+Traceback (most recent call last):
+    ...
+TypeError: text must be a string
+
+>>> text_indentation(42)
+Traceback (most recent call last):
+    ...
+TypeError: text must be a string
