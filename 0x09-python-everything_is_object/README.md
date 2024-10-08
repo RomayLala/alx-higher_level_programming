@@ -21,3 +21,4 @@ This function def copy_list(l): that returns a copy of a list.
 This function answers the question:Is a a tuple?.
 This function answers the question:Is a a tuple?.
 This function answers the question:Is a a tuple?.
+This function answers the question:Is a a tuple?.
