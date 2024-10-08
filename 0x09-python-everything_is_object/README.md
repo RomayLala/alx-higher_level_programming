@@ -22,3 +22,4 @@ This function answers the question:Is a a tuple?.
 This function answers the question:Is a a tuple?.
 This function answers the question:Is a a tuple?.
 This function answers the question:Is a a tuple?.
+This is the output of what this script prints.
