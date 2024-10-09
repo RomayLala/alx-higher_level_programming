@@ -31,3 +31,4 @@ This function magic_string() returns a string “BestSchool” n times the numbe
 This function is for the LockedClass which prevents dynamic creation of new attributes, except for first_name.
 This function answers the question:How many int objects are created by the execution of the first,second and last lines?.
 These functions answer the questios:How many int objects are created by the execution of the firstand second lines of the script?,After the execution of line 3, is the int object pointed by a deleted?,After the execution of line 4, is the int object pointed by b deleted?.
+This function answers the question:Before the execution of line 2 (print("Love")), how many int objects have been created and are still in memory?
