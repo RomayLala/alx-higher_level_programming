@@ -28,3 +28,5 @@ This is the output of what this script prints.
 This function answers the question:Will the last line of this script print 139926795932424?
 This function answers the question:Will the last line of this script print 139926795932424?
 This function magic_string() returns a string “BestSchool” n times the number of the iteration (see code).
+This function is for the LockedClass which prevents dynamic creation of new attributes, except for first_name.
+
