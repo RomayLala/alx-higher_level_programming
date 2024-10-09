@@ -27,3 +27,4 @@ This is the output of what this script prints.
 This is the output of what this script prints.
 This function answers the question:Will the last line of this script print 139926795932424?
 This function answers the question:Will the last line of this script print 139926795932424?
+This function magic_string() returns a string “BestSchool” n times the number of the iteration (see code).
