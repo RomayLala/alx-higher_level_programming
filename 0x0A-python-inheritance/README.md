@@ -4,4 +4,5 @@ This function returns True if the object is exactly an instance of the specified
 This function returns True if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class ; otherwise False.
 This function  returns True if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise False.
 This function is an empty class BaseGeometry.
+This is a class BaseGeometry (based on 5-base_geometry.py).
 
