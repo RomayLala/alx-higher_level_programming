@@ -4,4 +4,5 @@ This function  appends a string at the end of a text file (UTF8) and returns the
 This function returns the JSON representation of an object (string).
 This function returns an object (Python data structure) represented by a JSON string.
 This function writes an Object to a text file, using a JSON representation.
+This function creates an Object from a “JSON file”.
 
