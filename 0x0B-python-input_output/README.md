@@ -3,4 +3,5 @@ This function  writes a string to a text file (UTF8) and returns the number of c
 This function  appends a string at the end of a text file (UTF8) and returns the number of characters added.
 This function returns the JSON representation of an object (string).
 This function returns an object (Python data structure) represented by a JSON string.
+This function writes an Object to a text file, using a JSON representation.
 
