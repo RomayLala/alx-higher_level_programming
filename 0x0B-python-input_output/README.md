@@ -25,4 +25,7 @@ Public instance attributes:
 -last_name
 -age
 Instantiation with first_name, last_name and age: def __init__(self, first_name, last_name, age).
+This is a function def pascal_triangle(n): that returns a list of lists of integers representing the Pascal’s triangle of n:
+-Returns an empty list if n <= 0
+-You can assume n will be always an integer
 
