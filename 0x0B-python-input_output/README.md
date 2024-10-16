@@ -19,4 +19,10 @@ Public instance attributes:
 -last_name
 -age
 Instantiation with first_name, last_name and age: def __init__(self, first_name, last_name, age).
+This function is a class Student that defines a student by:(based on 10-student.py)
+Public instance attributes:
+-first_name
+-last_name
+-age
+Instantiation with first_name, last_name and age: def __init__(self, first_name, last_name, age).
 
