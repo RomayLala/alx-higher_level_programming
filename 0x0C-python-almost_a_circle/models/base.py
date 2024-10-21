@@ -27,6 +27,28 @@ class Base:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
 
+    @classmethod
+    def create(cls, **dictionary):
+        """Create a new instance of a class with attributes set from a dictionary.
+
+        Args:
+            dictionary (dict): A dictionary containing attributes to set.
+
+        Returns:
+            Base: An instance of the class with attributes set.
+        """
+        # Create a dummy instance with minimum required attributes
+        if cls.__name__ == 'Rectangle':
+            dummy = cls(1, 1)  # Dummy width and height for Rectangle
+        elif cls.__name__ == 'Square':
+            dummy = cls(1)  # Dummy size for Square
+        else:
+            raise ValueError("Unsupported class")
+
+        # Use the update method to set actual values from the dictionary
+        dummy.update(**dictionary)
+        return dummy
+
     @staticmethod
     def to_json_string(list_dictionaries):
         """Return the JSON string representation of list_dictionaries.
