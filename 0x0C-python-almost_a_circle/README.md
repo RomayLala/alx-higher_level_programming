@@ -21,4 +21,16 @@ This function updates the class Rectangle by adding the public method def update
 
 This function updates the class Rectangle by updating the public method def update(self, *args): by changing the prototype to update(self, *args, **kwargs) that assigns a key/value argument to attributes.
 
+This function writes the class Square that inherits from Rectangle.
+
+This function updates the class Square by adding the public getter and setter size.
+
+This function updates  the class Square by adding the public method def update(self, *args, **kwargs) that assigns attributes:
+
+*args is the list of arguments - no-keyworded arguments
+1st argument should be the id attribute
+2nd argument should be the size attribute
+3rd argument should be the x attribute
+4th argument should be the y attribute
+
 
