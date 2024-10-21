@@ -34,7 +34,7 @@ class Square(Rectangle):
     @size.setter
     def size(self, value):
         """Set the size of the square, ensuring it is a positive integer.
-        
+
         Args:
             value (int): The new size for the square.
 
@@ -81,3 +81,16 @@ class Square(Rectangle):
                     self.x = value
                 elif key == "y":
                     self.y = value
+
+    def to_dictionary(self):
+        """Return the dictionary representation of a Square.
+
+        Returns:
+            dict: A dictionary containing the id, size, x, and y of the square.
+        """
+        return {
+            'id': self.id,
+            'size': self.size,
+            'x': self.x,
+            'y': self.y
+        }

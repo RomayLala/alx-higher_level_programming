@@ -41,4 +41,11 @@ height
 x
 y
 
+This function updates Update the class Square by adding the public method def to_dictionary(self): that returns the dictionary representation of a Square:
+This dictionary contains:
+id
+size
+x
+y
+
 
