@@ -52,4 +52,8 @@ This function updates the class Base by adding the static method def to_json_str
 
 This function updates the class Base by adding the class method def save_to_file(cls, list_objs): that writes the JSON string representation of list_objs to a file.
 
+This function updates the class Base by adding the static method def from_json_string(json_string): that returns the list of the JSON string representation json_string.
+
+This function updates the class Base by adding the class method def create(cls, **dictionary): that returns an instance with all attributes already set.
+
 
