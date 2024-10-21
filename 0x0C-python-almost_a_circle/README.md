@@ -56,4 +56,4 @@ This function updates the class Base by adding the static method def from_json_s
 
 This function updates the class Base by adding the class method def create(cls, **dictionary): that returns an instance with all attributes already set.
 
-
+This function updates the class Base by adding the class method def load_from_file(cls): that returns a list of instances.

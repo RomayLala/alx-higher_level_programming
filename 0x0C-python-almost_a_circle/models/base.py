@@ -6,6 +6,7 @@ of all other classes in this project.
 """
 
 import json
+import os
 
 class Base:
     """Represents the base model.
@@ -99,3 +100,20 @@ class Base:
         # Write the JSON string representation to the file
         with open(filename, "w") as file:
             file.write(cls.to_json_string(dict_list))
+
+    @classmethod
+    def load_from_file(cls):
+        """Load instances from a JSON file.
+
+        Returns:
+            list: A list of instances of the class, or an empty list if the file does not exist.
+        """
+        filename = f"{cls.__name__}.json"
+        if not os.path.exists(filename):
+            return []
+
+        with open(filename, "r") as file:
+            json_string = file.read()
+        
+        list_dicts = cls.from_json_string(json_string)
+        return [cls.create(**d) for d in list_dicts]
