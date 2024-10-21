@@ -143,3 +143,17 @@ class Rectangle:
                 self.x = args[3]
             if len(args) > 4:
                 self.y = args[4]
+
+    def to_dictionary(self):
+        """Return the dictionary representation of the Rectangle instance.
+
+        Returns:
+            dict: A dictionary containing the attributes of the rectangle.
+        """
+        return {
+            'id': self.id,
+            'width': self.width,
+            'height': self.height,
+            'x': self.x,
+            'y': self.y
+        }

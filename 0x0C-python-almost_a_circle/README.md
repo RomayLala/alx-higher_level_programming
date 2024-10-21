@@ -33,4 +33,12 @@ This function updates  the class Square by adding the public method def update(s
 3rd argument should be the x attribute
 4th argument should be the y attribute
 
+This function updates Update the class Rectangle by adding the public method def to_dictionary(self): that returns the dictionary representation of a Rectangle:
+This dictionary contains:
+id
+width
+height
+x
+y
+
 
