@@ -48,4 +48,8 @@ size
 x
 y
 
+This function updates the class Base by adding the static method def to_json_string(list_dictionaries): that returns the JSON string representation of list_dictionaries.
+
+This function updates the class Base by adding the class method def save_to_file(cls, list_objs): that writes the JSON string representation of list_objs to a file.
+
 

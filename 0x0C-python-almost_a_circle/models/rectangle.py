@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 """Defines a Rectangle class."""
 
-class Rectangle:
+from models.base import Base
+
+class Rectangle(Base):
     """Represents a rectangle."""
 
-    # Class variable to keep track of the last assigned id
     _last_id = 0
 
     def __init__(self, width, height, x=0, y=0, id=None):
@@ -17,12 +18,7 @@ class Rectangle:
             y (int): The y coordinate of the rectangle.
             id (int, optional): The id of the rectangle.
         """
-        if id is None:
-            Rectangle._last_id += 1
-            self.id = Rectangle._last_id
-        else:
-            self.id = id
-            
+        super().__init__(id)  # Call the constructor of the Base class
         self.width = width
         self.height = height
         self.x = x
@@ -120,7 +116,7 @@ class Rectangle:
         """
         if len(args) > 0:
             self.id = args[0]
-        
+
         if len(args) == 0:
             # Only use kwargs if args is empty
             for key, value in kwargs.items():
