@@ -93,9 +93,10 @@ class Rectangle:
         return self.width * self.height
 
     def display(self):
-        """Prints the rectangle instance using the `#` character."""
+        """Prints the rectangle instance using the `#` character, taking x and y offsets into account."""
+        print("\n" * self.y, end="")  # Print y empty lines
         for _ in range(self.height):
-            print("#" * self.width)
+            print(" " * self.x + "#" * self.width)
 
     def __str__(self):
         """Return a string representation of the Rectangle instance.
@@ -104,3 +105,41 @@ class Rectangle:
             str: A formatted string in the form [Rectangle] (<id>) <x>/<y> - <width>/<height>
         """
         return f"[Rectangle] ({self.id}) {self.x}/{self.y} - {self.width}/{self.height}"
+
+    def update(self, *args, **kwargs):
+        """Update the attributes of the Rectangle instance using no-keyword and keyword arguments.
+
+        Args:
+            args (tuple): A variable number of positional arguments to update attributes:
+                1. id (int): The new id of the rectangle.
+                2. width (int): The new width of the rectangle.
+                3. height (int): The new height of the rectangle.
+                4. x (int): The new x coordinate of the rectangle.
+                5. y (int): The new y coordinate of the rectangle.
+            kwargs (dict): A variable number of keyword arguments to update attributes.
+        """
+        if len(args) > 0:
+            self.id = args[0]
+        
+        if len(args) == 0:
+            # Only use kwargs if args is empty
+            for key, value in kwargs.items():
+                if key == "id":
+                    self.id = value
+                elif key == "width":
+                    self.width = value
+                elif key == "height":
+                    self.height = value
+                elif key == "x":
+                    self.x = value
+                elif key == "y":
+                    self.y = value
+        else:
+            if len(args) > 1:
+                self.width = args[1]
+            if len(args) > 2:
+                self.height = args[2]
+            if len(args) > 3:
+                self.x = args[3]
+            if len(args) > 4:
+                self.y = args[4]
