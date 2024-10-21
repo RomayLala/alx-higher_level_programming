@@ -4,7 +4,10 @@
 class Rectangle:
     """Represents a rectangle."""
 
-    def __init__(self, width, height, x=0, y=0):
+    # Class variable to keep track of the last assigned id
+    _last_id = 0
+
+    def __init__(self, width, height, x=0, y=0, id=None):
         """Initialize a new Rectangle instance.
 
         Args:
@@ -12,7 +15,14 @@ class Rectangle:
             height (int): The height of the rectangle.
             x (int): The x coordinate of the rectangle.
             y (int): The y coordinate of the rectangle.
+            id (int, optional): The id of the rectangle.
         """
+        if id is None:
+            Rectangle._last_id += 1
+            self.id = Rectangle._last_id
+        else:
+            self.id = id
+            
         self.width = width
         self.height = height
         self.x = x
@@ -73,3 +83,24 @@ class Rectangle:
         if value < 0:
             raise ValueError("y must be >= 0")
         self.__y = value
+
+    def area(self):
+        """Calculate and return the area of the rectangle.
+
+        Returns:
+            int: The area of the rectangle.
+        """
+        return self.width * self.height
+
+    def display(self):
+        """Prints the rectangle instance using the `#` character."""
+        for _ in range(self.height):
+            print("#" * self.width)
+
+    def __str__(self):
+        """Return a string representation of the Rectangle instance.
+
+        Returns:
+            str: A formatted string in the form [Rectangle] (<id>) <x>/<y> - <width>/<height>
+        """
+        return f"[Rectangle] ({self.id}) {self.x}/{self.y} - {self.width}/{self.height}"
