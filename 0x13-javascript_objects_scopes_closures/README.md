@@ -1,0 +1,1 @@
+This project focuses on working with objects, scopes, and closures in Python. It involves learning how to use object-oriented programming principles such as classes and methods, as well as understanding how closures and scoping work in Python.
