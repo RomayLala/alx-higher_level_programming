@@ -1,0 +1,1 @@
+This project demonstrates the usage of Python with MySQL to interact with databases using both the MySQLdb module and SQLAlchemy ORM. The main goal of this project is to connect to a MySQL database, retrieve data, and interact with it using Python code without writing raw SQL queries.
